@@ -2,6 +2,8 @@
 
 HLTV OpenCLI adapters plus a Codex analysis skill for CS2/CS:GO match, player, duel, form, and map-pool analysis.
 
+中文文档: [README.zh-CN.md](README.zh-CN.md)
+
 This project is split into two layers:
 
 - **OpenCLI adapters** in `clis/hltv/`: structured data extraction from visible HLTV pages.
