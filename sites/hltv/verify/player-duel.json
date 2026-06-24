@@ -1,0 +1,62 @@
+{
+  "args": {
+    "playerA": "3741/niko",
+    "playerB": "21167/donk",
+    "match": "https://www.hltv.org/stats/matches/126993/spirit-vs-falcons"
+  },
+  "expect": {
+    "rowCount": {
+      "min": 4,
+      "max": 4
+    },
+    "columns": [
+      "rowType",
+      "scope",
+      "date",
+      "event",
+      "map",
+      "matchStatsId",
+      "playerAId",
+      "playerBId",
+      "ratingDiff",
+      "killDiff",
+      "directKillDiff",
+      "details"
+    ],
+    "types": {
+      "rowType": "string",
+      "scope": "string",
+      "date": "string",
+      "event": "string",
+      "map": "string",
+      "matchStatsId": "string",
+      "playerAId": "string",
+      "playerBId": "string",
+      "ratingDiff": "number",
+      "killDiff": "number",
+      "directKillDiff": "number",
+      "details": "object"
+    },
+    "patterns": {
+      "rowType": "^(summary|map)$",
+      "scope": "^match$",
+      "date": "^20\\d{2}-\\d{2}-\\d{2}$",
+      "event": "^PGL Astana 2026$",
+      "playerAId": "^3741$",
+      "playerBId": "^21167$"
+    },
+    "notEmpty": [
+      "rowType",
+      "scope",
+      "date",
+      "event",
+      "map",
+      "matchStatsId",
+      "playerAId",
+      "playerBId"
+    ],
+    "mustBeTruthy": [
+      "directKillDiff"
+    ]
+  }
+}

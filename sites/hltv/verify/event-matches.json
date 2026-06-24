@@ -1,0 +1,35 @@
+{
+  "args": {
+    "event": "8301",
+    "limit": 5
+  },
+  "expect": {
+    "rowCount": {
+      "min": 1
+    },
+    "columns": [
+      "rank",
+      "date",
+      "eventId",
+      "team",
+      "opponent",
+      "score",
+      "map",
+      "matchStatsId",
+      "matchStatsUrl",
+      "details"
+    ],
+    "types": {
+      "rank": "number",
+      "date": "string",
+      "eventId": "string",
+      "team": "string",
+      "opponent": "string",
+      "score": "string",
+      "map": "string",
+      "matchStatsId": "string",
+      "matchStatsUrl": "string",
+      "details": "object"
+    }
+  }
+}

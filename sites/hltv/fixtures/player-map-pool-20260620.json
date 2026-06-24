@@ -1,0 +1,142 @@
+[
+  {
+    "category": "summary",
+    "key": "all",
+    "playerId": "3741",
+    "nickname": "NiKo",
+    "maps": 30,
+    "avgRating": 1.15,
+    "kdRatio": 1.07,
+    "killsPerMap": 15.77,
+    "plusMinusTotal": 32,
+    "winMaps": 17,
+    "lossMaps": 13,
+    "details": {
+      "winRatePct": 56.67,
+      "deathsPerMap": 14.7,
+      "firstDate": "2026-05-16",
+      "lastDate": "2026-06-20",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "d2",
+    "playerId": "3741",
+    "nickname": "NiKo",
+    "maps": 10,
+    "avgRating": 1.1,
+    "kdRatio": 1.02,
+    "killsPerMap": 13.2,
+    "plusMinusTotal": 3,
+    "winMaps": 7,
+    "lossMaps": 3,
+    "details": {
+      "winRatePct": 70,
+      "deathsPerMap": 12.9,
+      "firstDate": "2026-05-16",
+      "lastDate": "2026-06-20",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "anc",
+    "playerId": "3741",
+    "nickname": "NiKo",
+    "maps": 6,
+    "avgRating": 0.95,
+    "kdRatio": 0.89,
+    "killsPerMap": 14.17,
+    "plusMinusTotal": -10,
+    "winMaps": 3,
+    "lossMaps": 3,
+    "details": {
+      "winRatePct": 50,
+      "deathsPerMap": 15.83,
+      "firstDate": "2026-05-17",
+      "lastDate": "2026-06-12",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "mrg",
+    "playerId": "3741",
+    "nickname": "NiKo",
+    "maps": 5,
+    "avgRating": 0.93,
+    "kdRatio": 0.89,
+    "killsPerMap": 13,
+    "plusMinusTotal": -8,
+    "winMaps": 1,
+    "lossMaps": 4,
+    "details": {
+      "winRatePct": 20,
+      "deathsPerMap": 14.6,
+      "firstDate": "2026-05-17",
+      "lastDate": "2026-06-15",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "inf",
+    "playerId": "3741",
+    "nickname": "NiKo",
+    "maps": 4,
+    "avgRating": 1.72,
+    "kdRatio": 1.55,
+    "killsPerMap": 24.75,
+    "plusMinusTotal": 35,
+    "winMaps": 2,
+    "lossMaps": 2,
+    "details": {
+      "winRatePct": 50,
+      "deathsPerMap": 16,
+      "firstDate": "2026-05-20",
+      "lastDate": "2026-06-20",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "nuke",
+    "playerId": "3741",
+    "nickname": "NiKo",
+    "maps": 3,
+    "avgRating": 1.28,
+    "kdRatio": 1.19,
+    "killsPerMap": 16.67,
+    "plusMinusTotal": 8,
+    "winMaps": 2,
+    "lossMaps": 1,
+    "details": {
+      "winRatePct": 66.67,
+      "deathsPerMap": 14,
+      "firstDate": "2026-05-23",
+      "lastDate": "2026-06-12",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "anb",
+    "playerId": "3741",
+    "nickname": "NiKo",
+    "maps": 2,
+    "avgRating": 1.18,
+    "kdRatio": 1.11,
+    "killsPerMap": 21,
+    "plusMinusTotal": 4,
+    "winMaps": 2,
+    "lossMaps": 0,
+    "details": {
+      "winRatePct": 100,
+      "deathsPerMap": 19,
+      "firstDate": "2026-06-15",
+      "lastDate": "2026-06-20",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  }
+]

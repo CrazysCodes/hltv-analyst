@@ -1,0 +1,34 @@
+{
+  "args": {
+    "team": "11283/falcons"
+  },
+  "expect": {
+    "rowCount": {
+      "min": 1
+    },
+    "columns": [
+      "category",
+      "key",
+      "teamId",
+      "team",
+      "maps",
+      "winMaps",
+      "lossMaps",
+      "winRatePct",
+      "avgRoundDiff",
+      "details"
+    ],
+    "types": {
+      "category": "string",
+      "key": "string",
+      "teamId": "string",
+      "team": "string",
+      "maps": "null|number",
+      "winMaps": "null|number",
+      "lossMaps": "null|number",
+      "winRatePct": "number",
+      "avgRoundDiff": "null",
+      "details": "object"
+    }
+  }
+}

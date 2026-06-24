@@ -1,0 +1,61 @@
+{
+  "args": {
+    "player": "3741/niko"
+  },
+  "expect": {
+    "rowCount": {
+      "min": 1,
+      "max": 1
+    },
+    "columns": [
+      "playerId",
+      "slug",
+      "nickname",
+      "fullName",
+      "age",
+      "teamName",
+      "prizeMoneyUsd",
+      "maps",
+      "rating",
+      "roles",
+      "completeStatsUrl",
+      "url"
+    ],
+    "types": {
+      "playerId": "string",
+      "slug": "string",
+      "nickname": "string",
+      "fullName": "string",
+      "age": "number",
+      "teamName": "string",
+      "prizeMoneyUsd": "number",
+      "maps": "number",
+      "rating": "number",
+      "roles": "object",
+      "completeStatsUrl": "string",
+      "url": "string"
+    },
+    "patterns": {
+      "playerId": "^3741$",
+      "slug": "^niko$",
+      "nickname": "^NiKo$",
+      "completeStatsUrl": "^https://www\\.hltv\\.org/stats/players/3741/niko$",
+      "url": "^https://www\\.hltv\\.org/player/3741/niko$"
+    },
+    "notEmpty": [
+      "playerId",
+      "slug",
+      "nickname",
+      "fullName",
+      "teamName",
+      "completeStatsUrl",
+      "url"
+    ],
+    "mustBeTruthy": [
+      "age",
+      "prizeMoneyUsd",
+      "maps",
+      "rating"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "date": "2026-06-20",
+    "team": "Falcons",
+    "opponent": "Vitality",
+    "map": "series",
+    "result": "win",
+    "teamId": "11283",
+    "matchStatsId": "2394999",
+    "details": {
+      "teamScore": 2,
+      "opponentScore": 1,
+      "event": null,
+      "roundDiff": 1,
+      "matchUrl": "https://www.hltv.org/matches/2394999/falcons-vs-vitality-iem-cologne-major-2026",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 2,
+    "date": "2026-06-15",
+    "team": "Falcons",
+    "opponent": "Natus Vincere",
+    "map": "series",
+    "result": "win",
+    "teamId": "11283",
+    "matchStatsId": "2394991",
+    "details": {
+      "teamScore": 2,
+      "opponentScore": 1,
+      "event": null,
+      "roundDiff": 1,
+      "matchUrl": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 3,
+    "date": "2026-06-13",
+    "team": "Falcons",
+    "opponent": "Monte",
+    "map": "series",
+    "result": "win",
+    "teamId": "11283",
+    "matchStatsId": "2394982",
+    "details": {
+      "teamScore": 2,
+      "opponentScore": 1,
+      "event": null,
+      "roundDiff": 1,
+      "matchUrl": "https://www.hltv.org/matches/2394982/falcons-vs-monte-iem-cologne-major-2026",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 4,
+    "date": "2026-06-12",
+    "team": "Falcons",
+    "opponent": "BetBoom",
+    "map": "series",
+    "result": "loss",
+    "teamId": "11283",
+    "matchStatsId": "2394975",
+    "details": {
+      "teamScore": 0,
+      "opponentScore": 2,
+      "event": null,
+      "roundDiff": -2,
+      "matchUrl": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 5,
+    "date": "2026-06-11",
+    "team": "Falcons",
+    "opponent": "G2",
+    "map": "series",
+    "result": "win",
+    "teamId": "11283",
+    "matchStatsId": "2394899",
+    "details": {
+      "teamScore": 2,
+      "opponentScore": 1,
+      "event": null,
+      "roundDiff": 1,
+      "matchUrl": "https://www.hltv.org/matches/2394899/falcons-vs-g2-iem-cologne-major-2026",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  }
+]

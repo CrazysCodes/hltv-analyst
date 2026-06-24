@@ -1,0 +1,25 @@
+[
+  {
+    "playerId": "3741",
+    "slug": "niko",
+    "nickname": "NiKo",
+    "fullName": "Nikola Kovač",
+    "age": 29,
+    "teamName": "Falcons",
+    "prizeMoneyUsd": 1836128,
+    "maps": 63,
+    "rating": 1.09,
+    "roles": {
+      "statsPeriod": "Past 3 months • 63 maps",
+      "firepower": 60,
+      "entrying": 44,
+      "trading": 59,
+      "opening": 50,
+      "clutching": 66,
+      "sniping": 0,
+      "utility": 72
+    },
+    "completeStatsUrl": "https://www.hltv.org/stats/players/3741/niko",
+    "url": "https://www.hltv.org/player/3741/niko"
+  }
+]

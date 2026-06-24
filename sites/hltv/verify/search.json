@@ -1,0 +1,42 @@
+{
+  "args": {
+    "query": "niko",
+    "limit": 5
+  },
+  "expect": {
+    "rowCount": {
+      "min": 8,
+      "max": 25
+    },
+    "columns": [
+      "rank",
+      "type",
+      "id",
+      "name",
+      "title",
+      "date",
+      "author",
+      "url"
+    ],
+    "types": {
+      "rank": "number",
+      "type": "string",
+      "id": "string",
+      "name": "null|string",
+      "title": "null|string",
+      "date": "null|string",
+      "author": "null|string",
+      "url": "string"
+    },
+    "patterns": {
+      "type": "^(player|team|event|article)$",
+      "id": "^\\d+$",
+      "url": "^https://www\\.hltv\\.org/(player|team|events|news)/\\d+/"
+    },
+    "notEmpty": [
+      "type",
+      "id",
+      "url"
+    ]
+  }
+}

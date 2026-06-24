@@ -1,0 +1,380 @@
+[
+  {
+    "category": "summary",
+    "key": "all",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 30,
+    "avgRating": 1.26,
+    "kdRatio": 1.34,
+    "killsPerMap": 19.23,
+    "plusMinusTotal": 147,
+    "winMaps": 18,
+    "lossMaps": 12,
+    "details": {
+      "firstDate": "2026-05-15",
+      "lastDate": "2026-06-15",
+      "deathsPerMap": 14.33,
+      "bestRating": 2.26,
+      "worstRating": 0.71,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "d2",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 10,
+    "avgRating": 1.46,
+    "kdRatio": 1.5,
+    "killsPerMap": 19.2,
+    "plusMinusTotal": 64,
+    "winMaps": 7,
+    "lossMaps": 3,
+    "details": {
+      "firstDate": "2026-05-15",
+      "lastDate": "2026-06-15",
+      "deathsPerMap": 12.8,
+      "bestRating": 2.26,
+      "worstRating": 1.01,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "anc",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 7,
+    "avgRating": 1.15,
+    "kdRatio": 1.2,
+    "killsPerMap": 17.71,
+    "plusMinusTotal": 21,
+    "winMaps": 4,
+    "lossMaps": 3,
+    "details": {
+      "firstDate": "2026-05-16",
+      "lastDate": "2026-06-12",
+      "deathsPerMap": 14.71,
+      "bestRating": 1.81,
+      "worstRating": 0.71,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "mrg",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 5,
+    "avgRating": 0.96,
+    "kdRatio": 1.03,
+    "killsPerMap": 14.2,
+    "plusMinusTotal": 2,
+    "winMaps": 1,
+    "lossMaps": 4,
+    "details": {
+      "firstDate": "2026-05-17",
+      "lastDate": "2026-06-15",
+      "deathsPerMap": 13.8,
+      "bestRating": 1.13,
+      "worstRating": 0.81,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "nuke",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 4,
+    "avgRating": 1.25,
+    "kdRatio": 1.52,
+    "killsPerMap": 24.75,
+    "plusMinusTotal": 34,
+    "winMaps": 3,
+    "lossMaps": 1,
+    "details": {
+      "firstDate": "2026-05-15",
+      "lastDate": "2026-06-12",
+      "deathsPerMap": 16.25,
+      "bestRating": 1.62,
+      "worstRating": 0.96,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "inf",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 3,
+    "avgRating": 1.38,
+    "kdRatio": 1.42,
+    "killsPerMap": 21.33,
+    "plusMinusTotal": 19,
+    "winMaps": 2,
+    "lossMaps": 1,
+    "details": {
+      "firstDate": "2026-05-20",
+      "lastDate": "2026-06-13",
+      "deathsPerMap": 15,
+      "bestRating": 1.55,
+      "worstRating": 1.26,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "map",
+    "key": "anb",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 1,
+    "avgRating": 1.34,
+    "kdRatio": 1.35,
+    "killsPerMap": 27,
+    "plusMinusTotal": 7,
+    "winMaps": 1,
+    "lossMaps": 0,
+    "details": {
+      "firstDate": "2026-06-15",
+      "lastDate": "2026-06-15",
+      "deathsPerMap": 20,
+      "bestRating": 1.34,
+      "worstRating": 1.34,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "Legacy",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 6,
+    "avgRating": 1.19,
+    "kdRatio": 1.18,
+    "killsPerMap": 16.5,
+    "plusMinusTotal": 15,
+    "winMaps": 3,
+    "lossMaps": 3,
+    "details": {
+      "firstDate": "2026-05-22",
+      "lastDate": "2026-05-24",
+      "deathsPerMap": 14,
+      "bestRating": 1.92,
+      "worstRating": 0.71,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "G2",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 3,
+    "avgRating": 1.46,
+    "kdRatio": 1.54,
+    "killsPerMap": 21,
+    "plusMinusTotal": 22,
+    "winMaps": 2,
+    "lossMaps": 1,
+    "details": {
+      "firstDate": "2026-06-11",
+      "lastDate": "2026-06-11",
+      "deathsPerMap": 13.67,
+      "bestRating": 1.86,
+      "worstRating": 1.26,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "Monte",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 3,
+    "avgRating": 1.26,
+    "kdRatio": 1.21,
+    "killsPerMap": 17,
+    "plusMinusTotal": 9,
+    "winMaps": 2,
+    "lossMaps": 1,
+    "details": {
+      "firstDate": "2026-06-13",
+      "lastDate": "2026-06-13",
+      "deathsPerMap": 14,
+      "bestRating": 1.55,
+      "worstRating": 0.81,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "MOUZ",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 3,
+    "avgRating": 1.02,
+    "kdRatio": 1.05,
+    "killsPerMap": 13.67,
+    "plusMinusTotal": 2,
+    "winMaps": 2,
+    "lossMaps": 1,
+    "details": {
+      "firstDate": "2026-05-23",
+      "lastDate": "2026-05-23",
+      "deathsPerMap": 13,
+      "bestRating": 1.12,
+      "worstRating": 0.96,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "Natus Vincere",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 3,
+    "avgRating": 1.37,
+    "kdRatio": 1.58,
+    "killsPerMap": 19,
+    "plusMinusTotal": 21,
+    "winMaps": 2,
+    "lossMaps": 1,
+    "details": {
+      "firstDate": "2026-06-15",
+      "lastDate": "2026-06-15",
+      "deathsPerMap": 12,
+      "bestRating": 1.73,
+      "worstRating": 1.04,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "Spirit",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 3,
+    "avgRating": 1,
+    "kdRatio": 1.15,
+    "killsPerMap": 18.33,
+    "plusMinusTotal": 7,
+    "winMaps": 0,
+    "lossMaps": 3,
+    "details": {
+      "firstDate": "2026-05-17",
+      "lastDate": "2026-05-17",
+      "deathsPerMap": 16,
+      "bestRating": 1.14,
+      "worstRating": 0.81,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "BetBoom",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 2,
+    "avgRating": 1.08,
+    "kdRatio": 1.16,
+    "killsPerMap": 18,
+    "plusMinusTotal": 5,
+    "winMaps": 0,
+    "lossMaps": 2,
+    "details": {
+      "firstDate": "2026-06-12",
+      "lastDate": "2026-06-12",
+      "deathsPerMap": 15.5,
+      "bestRating": 1.1,
+      "worstRating": 1.07,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "FURIA",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 2,
+    "avgRating": 1.33,
+    "kdRatio": 1.32,
+    "killsPerMap": 33,
+    "plusMinusTotal": 16,
+    "winMaps": 2,
+    "lossMaps": 0,
+    "details": {
+      "firstDate": "2026-05-15",
+      "lastDate": "2026-05-15",
+      "deathsPerMap": 25,
+      "bestRating": 1.62,
+      "worstRating": 1.05,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "M80",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 2,
+    "avgRating": 1.57,
+    "kdRatio": 2,
+    "killsPerMap": 26,
+    "plusMinusTotal": 26,
+    "winMaps": 2,
+    "lossMaps": 0,
+    "details": {
+      "firstDate": "2026-05-20",
+      "lastDate": "2026-05-20",
+      "deathsPerMap": 13,
+      "bestRating": 1.81,
+      "worstRating": 1.33,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "magic",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 2,
+    "avgRating": 1.71,
+    "kdRatio": 2.2,
+    "killsPerMap": 22,
+    "plusMinusTotal": 24,
+    "winMaps": 2,
+    "lossMaps": 0,
+    "details": {
+      "firstDate": "2026-05-16",
+      "lastDate": "2026-05-16",
+      "deathsPerMap": 10,
+      "bestRating": 2.26,
+      "worstRating": 1.16,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "category": "opponent",
+    "key": "BC.Game",
+    "playerId": "19230",
+    "nickname": "m0NESY",
+    "maps": 1,
+    "avgRating": 1.01,
+    "kdRatio": 1,
+    "killsPerMap": 13,
+    "plusMinusTotal": 0,
+    "winMaps": 1,
+    "lossMaps": 0,
+    "details": {
+      "firstDate": "2026-05-20",
+      "lastDate": "2026-05-20",
+      "deathsPerMap": 13,
+      "bestRating": 1.01,
+      "worstRating": 1.01,
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  }
+]

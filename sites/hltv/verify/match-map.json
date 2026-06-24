@@ -1,0 +1,59 @@
+{
+  "args": {
+    "match": "https://www.hltv.org/stats/matches/mapstatsid/231594/falcons-vs-natus-vincere?contextIds=19230&contextTypes=player"
+  },
+  "expect": {
+    "rowCount": {
+      "min": 10,
+      "max": 10
+    },
+    "columns": [
+      "matchStatsId",
+      "playerId",
+      "playerName",
+      "team",
+      "kills",
+      "deaths",
+      "adr",
+      "kastPct",
+      "rating",
+      "opKd",
+      "details",
+      "url"
+    ],
+    "types": {
+      "matchStatsId": "string",
+      "playerId": "string",
+      "playerName": "string",
+      "team": "string",
+      "kills": "number",
+      "deaths": "number",
+      "adr": "number",
+      "kastPct": "number",
+      "rating": "number",
+      "opKd": "string",
+      "details": "object",
+      "url": "string"
+    },
+    "patterns": {
+      "matchStatsId": "^231594$",
+      "playerId": "^\\d+$",
+      "url": "^https://www\\.hltv\\.org/stats/players/\\d+/"
+    },
+    "notEmpty": [
+      "matchStatsId",
+      "playerId",
+      "playerName",
+      "team",
+      "opKd",
+      "url"
+    ],
+    "mustBeTruthy": [
+      "kills",
+      "deaths",
+      "adr",
+      "kastPct",
+      "rating"
+    ]
+  }
+}

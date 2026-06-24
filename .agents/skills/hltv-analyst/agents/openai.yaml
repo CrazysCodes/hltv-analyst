@@ -1,0 +1,6 @@
+interface:
+  display_name: "HLTV Analyst"
+  short_description: "Analyze HLTV duels, matches, form, and pressure games"
+  default_prompt: "Use $hltv-analyst to analyze this HLTV match or player matchup in Chinese with evidence."
+policy:
+  allow_implicit_invocation: true

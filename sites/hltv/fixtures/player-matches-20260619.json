@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "date": "2026-06-15",
+    "playerTeam": "Falcons",
+    "opponent": "Natus Vincere",
+    "map": "anb",
+    "kills": 27,
+    "deaths": 23,
+    "plusMinus": 4,
+    "rating": 1.42,
+    "playerId": "3741",
+    "matchStatsId": "231594",
+    "details": {
+      "result": "win",
+      "playerTeamScore": 19,
+      "opponentScore": 16,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231594/falcons-vs-natus-vincere?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 2,
+    "date": "2026-06-15",
+    "playerTeam": "Falcons",
+    "opponent": "Natus Vincere",
+    "map": "mrg",
+    "kills": 11,
+    "deaths": 14,
+    "plusMinus": -3,
+    "rating": 0.74,
+    "playerId": "3741",
+    "matchStatsId": "231587",
+    "details": {
+      "result": "loss",
+      "playerTeamScore": 7,
+      "opponentScore": 13,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231587/falcons-vs-natus-vincere?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 3,
+    "date": "2026-06-15",
+    "playerTeam": "Falcons",
+    "opponent": "Natus Vincere",
+    "map": "d2",
+    "kills": 14,
+    "deaths": 7,
+    "plusMinus": 7,
+    "rating": 1.42,
+    "playerId": "3741",
+    "matchStatsId": "231579",
+    "details": {
+      "result": "win",
+      "playerTeamScore": 13,
+      "opponentScore": 3,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231579/natus-vincere-vs-falcons?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 4,
+    "date": "2026-06-13",
+    "playerTeam": "Falcons",
+    "opponent": "Monte",
+    "map": "mrg",
+    "kills": 20,
+    "deaths": 13,
+    "plusMinus": 7,
+    "rating": 1.41,
+    "playerId": "3741",
+    "matchStatsId": "231459",
+    "details": {
+      "result": "win",
+      "playerTeamScore": 13,
+      "opponentScore": 10,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231459/falcons-vs-monte?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 5,
+    "date": "2026-06-13",
+    "playerTeam": "Falcons",
+    "opponent": "Monte",
+    "map": "d2",
+    "kills": 7,
+    "deaths": 20,
+    "plusMinus": -13,
+    "rating": 0.64,
+    "playerId": "3741",
+    "matchStatsId": "231450",
+    "details": {
+      "result": "loss",
+      "playerTeamScore": 11,
+      "opponentScore": 13,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231450/monte-vs-falcons?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 6,
+    "date": "2026-06-13",
+    "playerTeam": "Falcons",
+    "opponent": "Monte",
+    "map": "inf",
+    "kills": 28,
+    "deaths": 12,
+    "plusMinus": 16,
+    "rating": 1.97,
+    "playerId": "3741",
+    "matchStatsId": "231432",
+    "details": {
+      "result": "win",
+      "playerTeamScore": 13,
+      "opponentScore": 9,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231432/falcons-vs-monte?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 7,
+    "date": "2026-06-12",
+    "playerTeam": "Falcons",
+    "opponent": "BetBoom",
+    "map": "anc",
+    "kills": 15,
+    "deaths": 19,
+    "plusMinus": -4,
+    "rating": 0.83,
+    "playerId": "3741",
+    "matchStatsId": "231337",
+    "details": {
+      "result": "loss",
+      "playerTeamScore": 10,
+      "opponentScore": 13,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231337/betboom-vs-falcons?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 8,
+    "date": "2026-06-12",
+    "playerTeam": "Falcons",
+    "opponent": "BetBoom",
+    "map": "nuke",
+    "kills": 16,
+    "deaths": 16,
+    "plusMinus": 0,
+    "rating": 0.95,
+    "playerId": "3741",
+    "matchStatsId": "231330",
+    "details": {
+      "result": "loss",
+      "playerTeamScore": 11,
+      "opponentScore": 13,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231330/falcons-vs-betboom?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 9,
+    "date": "2026-06-11",
+    "playerTeam": "Falcons",
+    "opponent": "G2",
+    "map": "anc",
+    "kills": 16,
+    "deaths": 16,
+    "plusMinus": 0,
+    "rating": 1.09,
+    "playerId": "3741",
+    "matchStatsId": "231279",
+    "details": {
+      "result": "win",
+      "playerTeamScore": 16,
+      "opponentScore": 13,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231279/falcons-vs-g2?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rank": 10,
+    "date": "2026-06-11",
+    "playerTeam": "Falcons",
+    "opponent": "G2",
+    "map": "d2",
+    "kills": 17,
+    "deaths": 10,
+    "plusMinus": 7,
+    "rating": 1.39,
+    "playerId": "3741",
+    "matchStatsId": "231276",
+    "details": {
+      "result": "win",
+      "playerTeamScore": 13,
+      "opponentScore": 8,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231276/g2-vs-falcons?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,ranking=all,map=all,version=both,offset=0"
+    }
+  }
+]

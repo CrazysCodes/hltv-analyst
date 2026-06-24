@@ -1,0 +1,263 @@
+{
+  "searchPage": {
+    "url": "https://www.hltv.org/search",
+    "method": "GET",
+    "params": {
+      "required": [
+        "query"
+      ],
+      "optional": []
+    },
+    "response": "SSR HTML; results are grouped in visible tables for Player, Team, Event, and Article",
+    "verified_at": "2026-06-19",
+    "notes": "Pattern C with Cloudflare cookie evidence; no real-data JSON API observed."
+  },
+  "playerSummaryPage": {
+    "url": "https://www.hltv.org/player/:playerId/:slug",
+    "method": "GET",
+    "params": {
+      "required": [
+        "playerId",
+        "slug"
+      ],
+      "optional": []
+    },
+    "response": "SSR HTML; player identity and summary metrics are visible under .playerProfile and player-stat sections",
+    "verified_at": "2026-06-19",
+    "notes": "The Complete statistics link points to /stats/players/:playerId/:slug."
+  },
+  "playerMatchesPage": {
+    "url": "https://www.hltv.org/stats/players/matches/:playerId/:slug",
+    "method": "GET",
+    "params": {
+      "required": [
+        "playerId",
+        "slug"
+      ],
+      "optional": [
+        "startDate",
+        "endDate",
+        "matchType",
+        "rankingFilter",
+        "maps",
+        "csVersion",
+        "offset"
+      ]
+    },
+    "response": "SSR HTML; match rows are in .stats-player-matches .stats-matches-table",
+    "verified_at": "2026-06-19",
+    "notes": "Pagination uses offset=100 increments. Match stat links expose mapstatsid."
+  },
+  "playerFormCommand": {
+    "url": "derived from https://www.hltv.org/stats/players/matches/:playerId/:slug",
+    "method": "DERIVED",
+    "params": {
+      "required": [
+        "playerId",
+        "slug"
+      ],
+      "optional": [
+        "startDate",
+        "endDate",
+        "matchType",
+        "rankingFilter",
+        "maps",
+        "csVersion",
+        "offset",
+        "limit"
+      ]
+    },
+    "response": "Aggregated rows from playerMatchesPage grouped by summary, map, and opponent",
+    "verified_at": "2026-06-19",
+    "notes": "Does not open individual mapstats pages; it reuses the visible matches table rows."
+  },
+  "matchMapPage": {
+    "url": "https://www.hltv.org/stats/matches/mapstatsid/:matchStatsId/:slug",
+    "method": "GET",
+    "params": {
+      "required": [
+        "matchStatsId",
+        "slug"
+      ],
+      "optional": [
+        "contextIds",
+        "contextTypes"
+      ]
+    },
+    "response": "SSR HTML; all player rows are split across two visible table.stats-table.totalstats tables",
+    "verified_at": "2026-06-19",
+    "notes": "Player links use /stats/players/:playerId/:slug. Match metadata is visible in .match-info-box."
+  },
+  "matchPage": {
+    "url": "https://www.hltv.org/matches/:matchId/:slug",
+    "method": "GET",
+    "params": {
+      "required": [
+        "matchId",
+        "slug"
+      ],
+      "optional": []
+    },
+    "response": "SSR HTML; match stats section links to each /stats/matches/mapstatsid/:id/:slug map and a /stats/matches/:seriesStatsId/:slug detail page",
+    "verified_at": "2026-06-19",
+    "notes": "Use visible STATS links to expand a BO1/BO3/BO5 into mapstats URLs."
+  },
+  "statsSeriesPage": {
+    "url": "https://www.hltv.org/stats/matches/:seriesStatsId/:slug",
+    "method": "GET",
+    "params": {
+      "required": [
+        "seriesStatsId",
+        "slug"
+      ],
+      "optional": [
+        "contextIds",
+        "contextTypes"
+      ]
+    },
+    "response": "SSR HTML; map tabs include each /stats/matches/mapstatsid/:id/:slug URL",
+    "verified_at": "2026-06-19",
+    "notes": "Used by hltv/player-duel to expand a full series into map-level comparisons."
+  },
+  "performanceKillMatrixPage": {
+    "url": "https://www.hltv.org/stats/matches/performance/mapstatsid/:matchStatsId/:slug",
+    "method": "GET",
+    "params": {
+      "required": [
+        "matchStatsId",
+        "slug"
+      ],
+      "optional": [
+        "contextIds",
+        "contextTypes"
+      ]
+    },
+    "response": "SSR HTML; visible Kill matrix table contains row player vs column player cells like A:B",
+    "verified_at": "2026-06-19",
+    "notes": "Cell A:B means row player killed column player A times and column player killed row player B times."
+  },
+  "teamProfilePage": {
+    "url": "https://www.hltv.org/team/:teamId/:slug",
+    "method": "GET",
+    "params": {
+      "required": [
+        "teamId",
+        "slug"
+      ],
+      "optional": []
+    },
+    "response": "SSR HTML; recent series rows are visible under table.match-table tr.team-row",
+    "verified_at": "2026-06-20",
+    "notes": "Used by hltv/team-matches. The stats team matches URL can hang in fresh browser sessions, so the profile page is the safer UI contract."
+  },
+  "teamMapPoolPage": {
+    "url": "https://www.hltv.org/stats/teams/maps/:teamId/:slug",
+    "method": "GET",
+    "params": {
+      "required": [
+        "teamId",
+        "slug"
+      ],
+      "optional": []
+    },
+    "response": "SSR HTML; top map-pool links expose map names and win rates, while the selected map's .two-grid exposes record, pick rate, ban rate, and round metrics",
+    "verified_at": "2026-06-20",
+    "notes": "Warm up through the team profile page first to avoid Cloudflare/session stalls. Non-selected maps expose win rate only in v1."
+  },
+  "eventStatsMatchesPage": {
+    "url": "https://www.hltv.org/stats/matches?event=:eventId",
+    "method": "GET",
+    "params": {
+      "required": [
+        "eventId"
+      ],
+      "optional": []
+    },
+    "response": "SSR HTML; visible stats matches table contains map-level rows for the event",
+    "verified_at": "2026-06-20",
+    "notes": "Used by hltv/event-matches; each row links to /stats/matches/mapstatsid/:id/:slug?event=:eventId."
+  },
+  "matchSeriesCommand": {
+    "url": "derived from matchPage, statsSeriesPage, and matchMapPage",
+    "method": "DERIVED",
+    "params": {
+      "required": [
+        "match"
+      ],
+      "optional": []
+    },
+    "response": "Summary, map, and player rows derived from all mapstats pages in a BO1/BO3/BO5 series",
+    "verified_at": "2026-06-20",
+    "notes": "Top-level matchStatsId is required by OpenCLI row-shape checks; kills/deaths/ADR/KAST stay in flat details."
+  },
+  "playerMapPoolCommand": {
+    "url": "derived from https://www.hltv.org/stats/players/matches/:playerId/:slug",
+    "method": "DERIVED",
+    "params": {
+      "required": [
+        "playerId",
+        "slug"
+      ],
+      "optional": [
+        "limit",
+        "event",
+        "startDate",
+        "endDate",
+        "matchType",
+        "rankingFilter",
+        "maps",
+        "csVersion",
+        "offset"
+      ]
+    },
+    "response": "Player matches aggregated into summary and map buckets",
+    "verified_at": "2026-06-20",
+    "notes": "Used by hltv/player-map-pool and hltv-analyst scouting workflows."
+  },
+  "playerVsTeamCommand": {
+    "url": "derived from playerMatchesPage",
+    "method": "DERIVED",
+    "params": {
+      "required": [
+        "player",
+        "team"
+      ],
+      "optional": [
+        "limit",
+        "event",
+        "period",
+        "eventType",
+        "ranking",
+        "map",
+        "version",
+        "offset"
+      ]
+    },
+    "response": "Player matches filtered by opponent team, with a summary row plus map rows",
+    "verified_at": "2026-06-20",
+    "notes": "The team ref is used for normalized name matching; the summary details use targetTeam instead of nested teamId to satisfy row-shape checks."
+  },
+  "playerTeammateImpactCommand": {
+    "url": "derived from two playerMatchesPage reads",
+    "method": "DERIVED",
+    "params": {
+      "required": [
+        "playerA",
+        "playerB"
+      ],
+      "optional": [
+        "limit",
+        "event",
+        "period",
+        "eventType",
+        "ranking",
+        "map",
+        "version",
+        "offset"
+      ]
+    },
+    "response": "Compares playerA rows with and without playerB present in the scanned sample",
+    "verified_at": "2026-06-20",
+    "notes": "No causal conclusion is emitted; this is a factual grouping for hltv-analyst to interpret."
+  }
+}

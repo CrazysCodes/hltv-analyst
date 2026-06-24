@@ -1,0 +1,38 @@
+{
+  "args": {
+    "playerA": "3741/niko",
+    "playerB": "19230/m0nesy",
+    "limit": 30
+  },
+  "expect": {
+    "rowCount": {
+      "min": 1
+    },
+    "columns": [
+      "category",
+      "key",
+      "playerId",
+      "maps",
+      "avgRating",
+      "kdRatio",
+      "killsPerMap",
+      "plusMinusTotal",
+      "winMaps",
+      "lossMaps",
+      "details"
+    ],
+    "types": {
+      "category": "string",
+      "key": "string",
+      "playerId": "string",
+      "maps": "number",
+      "avgRating": "null|number",
+      "kdRatio": "null|number",
+      "killsPerMap": "null|number",
+      "plusMinusTotal": "number",
+      "winMaps": "number",
+      "lossMaps": "number",
+      "details": "object"
+    }
+  }
+}

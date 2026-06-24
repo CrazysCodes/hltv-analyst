@@ -1,0 +1,56 @@
+{
+  "args": {
+    "player": "19230/m0nesy",
+    "limit": 30
+  },
+  "expect": {
+    "rowCount": {
+      "min": 3,
+      "max": 40
+    },
+    "columns": [
+      "category",
+      "key",
+      "playerId",
+      "nickname",
+      "maps",
+      "avgRating",
+      "kdRatio",
+      "killsPerMap",
+      "plusMinusTotal",
+      "winMaps",
+      "lossMaps",
+      "details"
+    ],
+    "types": {
+      "category": "string",
+      "key": "string",
+      "playerId": "string",
+      "nickname": "string",
+      "maps": "number",
+      "avgRating": "number",
+      "kdRatio": "number",
+      "killsPerMap": "number",
+      "plusMinusTotal": "number",
+      "winMaps": "number",
+      "lossMaps": "number",
+      "details": "object"
+    },
+    "patterns": {
+      "category": "^(summary|map|opponent)$",
+      "playerId": "^19230$"
+    },
+    "notEmpty": [
+      "category",
+      "key",
+      "playerId",
+      "nickname"
+    ],
+    "mustBeTruthy": [
+      "maps",
+      "avgRating",
+      "kdRatio",
+      "killsPerMap"
+    ]
+  }
+}

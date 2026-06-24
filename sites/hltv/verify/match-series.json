@@ -1,0 +1,38 @@
+{
+  "args": {
+    "match": "https://www.hltv.org/stats/matches/126993/spirit-vs-falcons"
+  },
+  "expect": {
+    "rowCount": {
+      "min": 1
+    },
+    "columns": [
+      "rowType",
+      "date",
+      "event",
+      "map",
+      "team",
+      "opponent",
+      "score",
+      "matchStatsId",
+      "playerId",
+      "playerName",
+      "rating",
+      "details"
+    ],
+    "types": {
+      "rowType": "string",
+      "date": "string",
+      "event": "string",
+      "map": "string",
+      "team": "string",
+      "opponent": "string",
+      "score": "string",
+      "matchStatsId": "string",
+      "playerId": "null|string",
+      "playerName": "null|string",
+      "rating": "number",
+      "details": "object"
+    }
+  }
+}

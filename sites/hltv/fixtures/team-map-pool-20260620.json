@@ -1,0 +1,206 @@
+[
+  {
+    "category": "summary",
+    "key": "all",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": 134,
+    "winMaps": 72,
+    "lossMaps": 62,
+    "winRatePct": 53.73,
+    "avgRoundDiff": null,
+    "details": {
+      "mapsCovered": 9,
+      "source": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  },
+  {
+    "category": "map",
+    "key": "Nuke",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": 134,
+    "winMaps": 72,
+    "lossMaps": 62,
+    "winRatePct": 53.7,
+    "avgRoundDiff": null,
+    "details": {
+      "draws": 0,
+      "totalRounds": 3282,
+      "roundsPerMap": 24.49,
+      "firstKillWinPct": 72.7,
+      "firstDeathWinPct": 29.5,
+      "pickPct": 26.1,
+      "banPct": 7.9,
+      "url": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  },
+  {
+    "category": "map",
+    "key": "Ancient",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": null,
+    "winMaps": null,
+    "lossMaps": null,
+    "winRatePct": 54.8,
+    "avgRoundDiff": null,
+    "details": {
+      "draws": null,
+      "totalRounds": null,
+      "roundsPerMap": null,
+      "firstKillWinPct": null,
+      "firstDeathWinPct": null,
+      "pickPct": null,
+      "banPct": null,
+      "url": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  },
+  {
+    "category": "map",
+    "key": "Anubis",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": null,
+    "winMaps": null,
+    "lossMaps": null,
+    "winRatePct": 50,
+    "avgRoundDiff": null,
+    "details": {
+      "draws": null,
+      "totalRounds": null,
+      "roundsPerMap": null,
+      "firstKillWinPct": null,
+      "firstDeathWinPct": null,
+      "pickPct": null,
+      "banPct": null,
+      "url": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  },
+  {
+    "category": "map",
+    "key": "Dust2",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": null,
+    "winMaps": null,
+    "lossMaps": null,
+    "winRatePct": 60.2,
+    "avgRoundDiff": null,
+    "details": {
+      "draws": null,
+      "totalRounds": null,
+      "roundsPerMap": null,
+      "firstKillWinPct": null,
+      "firstDeathWinPct": null,
+      "pickPct": null,
+      "banPct": null,
+      "url": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  },
+  {
+    "category": "map",
+    "key": "Inferno",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": null,
+    "winMaps": null,
+    "lossMaps": null,
+    "winRatePct": 48.1,
+    "avgRoundDiff": null,
+    "details": {
+      "draws": null,
+      "totalRounds": null,
+      "roundsPerMap": null,
+      "firstKillWinPct": null,
+      "firstDeathWinPct": null,
+      "pickPct": null,
+      "banPct": null,
+      "url": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  },
+  {
+    "category": "map",
+    "key": "Mirage",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": null,
+    "winMaps": null,
+    "lossMaps": null,
+    "winRatePct": 50.8,
+    "avgRoundDiff": null,
+    "details": {
+      "draws": null,
+      "totalRounds": null,
+      "roundsPerMap": null,
+      "firstKillWinPct": null,
+      "firstDeathWinPct": null,
+      "pickPct": null,
+      "banPct": null,
+      "url": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  },
+  {
+    "category": "map",
+    "key": "Overpass",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": null,
+    "winMaps": null,
+    "lossMaps": null,
+    "winRatePct": 53.1,
+    "avgRoundDiff": null,
+    "details": {
+      "draws": null,
+      "totalRounds": null,
+      "roundsPerMap": null,
+      "firstKillWinPct": null,
+      "firstDeathWinPct": null,
+      "pickPct": null,
+      "banPct": null,
+      "url": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  },
+  {
+    "category": "map",
+    "key": "Train",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": null,
+    "winMaps": null,
+    "lossMaps": null,
+    "winRatePct": 47.8,
+    "avgRoundDiff": null,
+    "details": {
+      "draws": null,
+      "totalRounds": null,
+      "roundsPerMap": null,
+      "firstKillWinPct": null,
+      "firstDeathWinPct": null,
+      "pickPct": null,
+      "banPct": null,
+      "url": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  },
+  {
+    "category": "map",
+    "key": "Vertigo",
+    "teamId": "11283",
+    "team": "Falcons",
+    "maps": null,
+    "winMaps": null,
+    "lossMaps": null,
+    "winRatePct": 49.3,
+    "avgRoundDiff": null,
+    "details": {
+      "draws": null,
+      "totalRounds": null,
+      "roundsPerMap": null,
+      "firstKillWinPct": null,
+      "firstDeathWinPct": null,
+      "pickPct": null,
+      "banPct": null,
+      "url": "https://www.hltv.org/stats/teams/maps/11283/falcons"
+    }
+  }
+]

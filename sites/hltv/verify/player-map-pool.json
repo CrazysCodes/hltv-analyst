@@ -1,0 +1,39 @@
+{
+  "args": {
+    "player": "3741/niko",
+    "limit": 30
+  },
+  "expect": {
+    "rowCount": {
+      "min": 1
+    },
+    "columns": [
+      "category",
+      "key",
+      "playerId",
+      "nickname",
+      "maps",
+      "avgRating",
+      "kdRatio",
+      "killsPerMap",
+      "plusMinusTotal",
+      "winMaps",
+      "lossMaps",
+      "details"
+    ],
+    "types": {
+      "category": "string",
+      "key": "string",
+      "playerId": "string",
+      "nickname": "string",
+      "maps": "number",
+      "avgRating": "number",
+      "kdRatio": "number",
+      "killsPerMap": "number",
+      "plusMinusTotal": "number",
+      "winMaps": "number",
+      "lossMaps": "number",
+      "details": "object"
+    }
+  }
+}

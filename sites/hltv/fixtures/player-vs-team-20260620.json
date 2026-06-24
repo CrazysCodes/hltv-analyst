@@ -1,0 +1,129 @@
+[
+  {
+    "rowType": "summary",
+    "rank": 0,
+    "date": "2026-05-17",
+    "playerId": "3741",
+    "opponent": "spirit",
+    "map": "all",
+    "kills": 55,
+    "deaths": 80,
+    "rating": 0.8,
+    "result": "0-5",
+    "matchStatsId": "all",
+    "details": {
+      "maps": 5,
+      "kdRatio": 0.69,
+      "plusMinusTotal": -25,
+      "firstDate": "2026-04-18",
+      "lastDate": "2026-05-17",
+      "targetTeam": "7020/spirit",
+      "nickname": "NiKo"
+    }
+  },
+  {
+    "rowType": "map",
+    "rank": 27,
+    "date": "2026-05-17",
+    "playerId": "3741",
+    "opponent": "Spirit",
+    "map": "anc",
+    "kills": 10,
+    "deaths": 16,
+    "rating": 0.71,
+    "result": "loss",
+    "matchStatsId": "229142",
+    "details": {
+      "result": "loss",
+      "playerTeamScore": 10,
+      "opponentScore": 13,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/229142/falcons-vs-spirit?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rowType": "map",
+    "rank": 28,
+    "date": "2026-05-17",
+    "playerId": "3741",
+    "opponent": "Spirit",
+    "map": "mrg",
+    "kills": 10,
+    "deaths": 16,
+    "rating": 0.71,
+    "result": "loss",
+    "matchStatsId": "229137",
+    "details": {
+      "result": "loss",
+      "playerTeamScore": 7,
+      "opponentScore": 13,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/229137/spirit-vs-falcons?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rowType": "map",
+    "rank": 29,
+    "date": "2026-05-17",
+    "playerId": "3741",
+    "opponent": "Spirit",
+    "map": "d2",
+    "kills": 12,
+    "deaths": 19,
+    "rating": 0.88,
+    "result": "loss",
+    "matchStatsId": "229132",
+    "details": {
+      "result": "loss",
+      "playerTeamScore": 12,
+      "opponentScore": 16,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/229132/falcons-vs-spirit?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rowType": "map",
+    "rank": 47,
+    "date": "2026-04-18",
+    "playerId": "3741",
+    "opponent": "Spirit",
+    "map": "mrg",
+    "kills": 5,
+    "deaths": 15,
+    "rating": 0.4,
+    "result": "loss",
+    "matchStatsId": "226717",
+    "details": {
+      "result": "loss",
+      "playerTeamScore": 4,
+      "opponentScore": 13,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/226717/spirit-vs-falcons?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  },
+  {
+    "rowType": "map",
+    "rank": 48,
+    "date": "2026-04-18",
+    "playerId": "3741",
+    "opponent": "Spirit",
+    "map": "d2",
+    "kills": 18,
+    "deaths": 14,
+    "rating": 1.28,
+    "result": "loss",
+    "matchStatsId": "226713",
+    "details": {
+      "result": "loss",
+      "playerTeamScore": 7,
+      "opponentScore": 13,
+      "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/226713/falcons-vs-spirit?startDate=all&contextIds=3741&contextTypes=player",
+      "nickname": "NiKo",
+      "filters": "period=all,eventType=all,event=all,ranking=all,map=all,version=both,offset=0"
+    }
+  }
+]

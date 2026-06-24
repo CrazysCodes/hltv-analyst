@@ -1,0 +1,40 @@
+{
+  "args": {
+    "player": "3741/niko",
+    "team": "7020/spirit",
+    "limit": 50
+  },
+  "expect": {
+    "rowCount": {
+      "min": 1
+    },
+    "columns": [
+      "rowType",
+      "rank",
+      "date",
+      "playerId",
+      "opponent",
+      "map",
+      "kills",
+      "deaths",
+      "rating",
+      "result",
+      "matchStatsId",
+      "details"
+    ],
+    "types": {
+      "rowType": "string",
+      "rank": "number",
+      "date": "string",
+      "playerId": "string",
+      "opponent": "string",
+      "map": "string",
+      "kills": "number",
+      "deaths": "number",
+      "rating": "number",
+      "result": "string",
+      "matchStatsId": "string",
+      "details": "object"
+    }
+  }
+}

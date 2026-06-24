@@ -1,0 +1,82 @@
+[
+  {
+    "rank": 1,
+    "date": "2026-06-20",
+    "eventId": "8301",
+    "team": "Vitality",
+    "opponent": "Falcons",
+    "score": "11-13",
+    "map": "Dust2",
+    "matchStatsId": "231787",
+    "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231787/vitality-vs-falcons?event=8301",
+    "details": {
+      "teamScore": 11,
+      "opponentScore": 13,
+      "extra": "IEM Cologne Major 2026"
+    }
+  },
+  {
+    "rank": 2,
+    "date": "2026-06-20",
+    "eventId": "8301",
+    "team": "Falcons",
+    "opponent": "Vitality",
+    "score": "11-13",
+    "map": "Inferno",
+    "matchStatsId": "231786",
+    "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231786/falcons-vs-vitality?event=8301",
+    "details": {
+      "teamScore": 11,
+      "opponentScore": 13,
+      "extra": "IEM Cologne Major 2026"
+    }
+  },
+  {
+    "rank": 3,
+    "date": "2026-06-20",
+    "eventId": "8301",
+    "team": "Falcons",
+    "opponent": "Vitality",
+    "score": "13-11",
+    "map": "Anubis",
+    "matchStatsId": "231784",
+    "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231784/falcons-vs-vitality?event=8301",
+    "details": {
+      "teamScore": 13,
+      "opponentScore": 11,
+      "extra": "IEM Cologne Major 2026"
+    }
+  },
+  {
+    "rank": 4,
+    "date": "2026-06-19",
+    "eventId": "8301",
+    "team": "Spirit",
+    "opponent": "G2",
+    "score": "25-22",
+    "map": "Mirage",
+    "matchStatsId": "231762",
+    "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231762/spirit-vs-g2?event=8301",
+    "details": {
+      "teamScore": 25,
+      "opponentScore": 22,
+      "extra": "IEM Cologne Major 2026"
+    }
+  },
+  {
+    "rank": 5,
+    "date": "2026-06-19",
+    "eventId": "8301",
+    "team": "G2",
+    "opponent": "Spirit",
+    "score": "14-16",
+    "map": "Dust2",
+    "matchStatsId": "231755",
+    "matchStatsUrl": "https://www.hltv.org/stats/matches/mapstatsid/231755/g2-vs-spirit?event=8301",
+    "details": {
+      "teamScore": 14,
+      "opponentScore": 16,
+      "extra": "IEM Cologne Major 2026"
+    }
+  }
+]
